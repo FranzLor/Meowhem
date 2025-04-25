@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 6.0f;
 
-
+    
     private Rigidbody2D rigidBody;
     private PlayerControls playerControls;
     private Vector2 movement;
